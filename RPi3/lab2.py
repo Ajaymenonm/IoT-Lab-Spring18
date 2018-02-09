@@ -11,9 +11,9 @@ GPIO.setup(button1_pin,GPIO.IN,pull_up_down=GPIO.PUD_UP)      # Make button1_pin
 while(1):                                                     # Create an infinite Loop
   input1=GPIO.input(button1_pin)
 
-    if  input1==0:                                            # Look for button 1 press
-        sleep(.1)                                             # Delay
-        print ('Button 1 Pressed')                            # Notify User
+  if input1==0:                                            # Look for button 1 press
+    sleep(.1)                                             # Delay
+    print ('Button 1 Pressed')                            # Notify User
 
 
 #===============================================================================================================================================
