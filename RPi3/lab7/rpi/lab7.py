@@ -29,9 +29,9 @@ def customShadowCallback_Update(payload, responseStatus, token):
 
 # This should be set to your accounts endpoint
 AWS_IOT_ENDPOINT = ''
-AWS_IOT_ROOT_CA = '/home/pi/workspace/alexa_temp_hdt/VeriSign-Class 3-Public-Primary-Certification-Authority-G5.pem'
-AWS_IOT_PRIVATE_KEY = '/home/pi/workspace/alexa_temp_hdt/0c01d13c42-private.pem.key'
-AWS_IOT_CERTIFICATE = '/home/pi/workspace/alexa_temp_hdt/0c01d13c42-certificate.pem.crt'
+AWS_IOT_ROOT_CA = ''
+AWS_IOT_PRIVATE_KEY = ''
+AWS_IOT_CERTIFICATE = ''
 
 
 # AWS IoT certificate based connection
