@@ -1,0 +1,15 @@
+{
+  "name": "iotlab2",
+  "version": "1.0.0",
+  "description": "An alexa skill to get dht22 sensor data from dynamo db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ajay Menon",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-app": "^4.2.1",
+    "dynasty": "^0.3.9"
+  }
+}

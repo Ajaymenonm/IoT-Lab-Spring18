@@ -1,0 +1,14 @@
+{
+  "name": "iotlab",
+  "version": "1.0.0",
+  "description": "An Alexa skill to turn on / off the LED connected to Raspberry Pi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ajay Menon",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-app": "^4.2.1"
+  }
+}
